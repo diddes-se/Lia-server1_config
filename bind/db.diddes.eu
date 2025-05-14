@@ -1,0 +1,17 @@
+;
+;
+$TTL	604800
+@	IN	SOA	diddes.eu. server1.diddes.eu. (
+			 2025050905		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	server1.diddes.eu.
+@	IN	NS	server2.diddes.eu.
+@	IN	A	10.10.1.2
+
+server1	IN	A	10.10.1.2
+server2	IN	A	10.10.1.3
+zabbix	IN	CNAME	server2.diddes.eu.
