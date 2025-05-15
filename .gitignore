@@ -139,7 +139,6 @@ resolvconf/
 rmt
 rpc
 rsyslog.conf
-rsyslog.d/
 screenrc
 security/
 selinux/
@@ -198,3 +197,6 @@ ssh/ssh_host_ed25519_key.pub
 ssh/ssh_host_rsa_key
 ssh/ssh_host_rsa_key.pub
 ssh/ssh_import_id
+rsyslog.d/20-ufw.conf
+rsyslog.d/21-cloudinit.conf
+rsyslog.d/postfix.conf
