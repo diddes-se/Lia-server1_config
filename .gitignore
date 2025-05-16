@@ -200,3 +200,6 @@ ssh/ssh_import_id
 rsyslog.d/20-ufw.conf
 rsyslog.d/21-cloudinit.conf
 rsyslog.d/postfix.conf
+chrony/chrony.keys
+chrony/conf.d/
+chrony/sources.d/
