@@ -83,7 +83,6 @@ localtime
 logcheck/
 login.defs
 logrotate.conf
-logrotate.d/
 lsb-release
 lvm/
 machine-id
@@ -206,3 +205,18 @@ chrony/sources.d/
 dhcp/dhclient-exit-hooks.d/
 fail2ban/
 monit/
+logrotate.d/alternatives
+logrotate.d/apport
+logrotate.d/apt
+logrotate.d/bootlog
+logrotate.d/btmp
+logrotate.d/chrony
+logrotate.d/cloud-init
+logrotate.d/dpkg
+logrotate.d/fail2ban
+logrotate.d/rsyslog
+logrotate.d/ubuntu-pro-client
+logrotate.d/ufw
+logrotate.d/unattended-upgrades
+logrotate.d/wtmp
+logrotate.d/zabbix-agent
