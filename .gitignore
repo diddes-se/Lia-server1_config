@@ -203,3 +203,6 @@ rsyslog.d/postfix.conf
 chrony/chrony.keys
 chrony/conf.d/
 chrony/sources.d/
+dhcp/dhclient-exit-hooks.d/
+fail2ban/
+monit/
